@@ -23,7 +23,7 @@
         }
       },
       "block_order": ["announcement-bar-0"],
-      "custom_css": ["div {background-color: red}"],
+      "custom_css": ["div {background-color: yellow}"],
       "settings": {
         "color_scheme": "scheme-1",
         "show_line_separator": true,

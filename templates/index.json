@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -23,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -31,10 +31,7 @@
           }
         }
       },
-      "block_order": [
-        "heading",
-        "button"
-      ],
+      "block_order": ["heading", "button"],
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -82,14 +79,14 @@
         "heading_egFdMz": {
           "type": "heading",
           "settings": {
-            "heading": "<a href=\"\/blogs\/updates\/first-blog-post\" title=\"First Blog Post\"><em><strong>Image <\/strong><\/em><\/a><em><strong>with text Section<\/strong><\/em><a href=\"\/pages\/this-is-a-test-page\" target=\"_blank\" title=\"This is a test page\">\/pages\/this-is-a-test-page<\/a>",
+            "heading": "<a href=\"/blogs/updates/first-blog-post\" title=\"First Blog Post\"><em><strong>Image </strong></em></a><em><strong>with text Section</strong></em><a href=\"/pages/this-is-a-test-page\" target=\"_blank\" title=\"This is a test page\">/pages/this-is-a-test-page</a>",
             "heading_size": "hxl"
           }
         },
         "text_pYV4mg": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ shop.brand.short_description }}<\/p>",
+            "text": "<p>{{ shop.brand.short_description }}</p>",
             "text_style": "body"
           }
         },
@@ -97,21 +94,15 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": true
           }
         }
       },
-      "block_order": [
-        "heading_egFdMz",
-        "text_pYV4mg",
-        "button_CyAQJr"
-      ],
-      "custom_css": [
-        "div {font-size: 16;}"
-      ],
+      "block_order": ["heading_egFdMz", "text_pYV4mg", "button_CyAQJr"],
+      "custom_css": ["div {font-size: 16;}"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman-holding-coffee-mug.jpg",
+        "image": "shopify://shop_images/woman-holding-coffee-mug.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -127,9 +118,5 @@
       }
     }
   },
-  "order": [
-    "image_banner",
-    "featured_collection",
-    "image_with_text_khthtz"
-  ]
+  "order": ["image_banner", "featured_collection", "image_with_text_khthtz"]
 }

@@ -41,7 +41,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-227855d2-e671-4a63-b7cc-c42506fb1a74",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -89,7 +89,7 @@
         "text_pYV4mg": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>{{ shop.brand.short_description }}<\/p>",
             "text_style": "body"
           }
         },
@@ -118,7 +118,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "section_color_scheme": "scheme-3",
+        "section_color_scheme": "scheme-5",
         "color_scheme": "scheme-4",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",

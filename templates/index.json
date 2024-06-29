@@ -53,7 +53,7 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>{{ section.settings.collection.title }}<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
@@ -97,7 +97,7 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "",
             "button_style_secondary": true
           }
         }

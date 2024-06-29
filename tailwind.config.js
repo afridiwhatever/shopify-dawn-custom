@@ -4,7 +4,7 @@ module.exports = {
     "./config/*.json",
     "./layout/*.liquid",
     "./assets/*.liquid",
-    "./secions/*.liquid",
+    "./sections/*.liquid",
     "./snippets/*.liquid",
     "./templates/*.liquid",
     "./templates/*.json",

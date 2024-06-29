@@ -26,7 +26,7 @@
         "announcement-bar-0"
       ],
       "custom_css": [
-        "div {background-color: blue}"
+        "div {background-color: lightgray;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",

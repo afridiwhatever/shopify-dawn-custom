@@ -232,7 +232,6 @@
                   </details>
                 </div>
 
-                                Your Custom Text
               {%- when 'quantity_selector' -%}
                 <div
                   id="Quantity-Form-{{ section.id }}"
@@ -256,7 +255,7 @@
                       >
                     </span>
                   </label>
-                    
+
                   <div class="price-per-item__container">
                     <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
                       <button class="quantity__button" name="minus" type="button">
@@ -265,7 +264,7 @@
                         </span>
                         {% render 'icon-minus' %}
                       </button>
-                
+
                       <input
                         class="quantity__input"
                         type="number"

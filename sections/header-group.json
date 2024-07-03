@@ -17,7 +17,9 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free Shipping on Orders Over $99!",
+            "text": "<p>Free Shipping on Orders Over $99!<\/p>",
+            "bg_color": "#ad2a2a",
+            "text_color": "#f0e3e3",
             "link": ""
           }
         }
@@ -29,7 +31,6 @@
         "div {background-color: lightgray;}"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,

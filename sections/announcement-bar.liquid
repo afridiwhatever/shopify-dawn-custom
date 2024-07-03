@@ -43,7 +43,7 @@
             >
           {%- endif -%}
        
-          <p style="background-color: {{ blocks.settings.bg_color }}  ; color: {{blocks.settings.text_color}}"  class="announcement-bar__message h5" >
+          <p  style="background-color: {{ section.blocks.settings.bg_color }}  ; color: {{section.blocks.settings.text_color}}"  class="announcement-bar__message h5 {{section.blocks.settings.text_align}}" >
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
               {% render 'icon-arrow' %}
@@ -175,7 +175,6 @@
   },
   "settings": [
  
-   
     {
       "type": "checkbox",
       "id": "show_line_separator",
@@ -263,7 +262,27 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
-        }
+        },
+        {
+          "type": "select",
+          "id": "text_align",
+          "label": "Text Align",
+          "options": [
+            {
+              "value": "text-left",
+              "label": "Left"
+            },
+            {
+              "value": "text-center",
+              "label": "Right"
+            },
+            {
+              "value": "text-right",
+              "label": "Right"
+            }
+          ],
+          "default": ""
+        },
       ]
     }
   ],

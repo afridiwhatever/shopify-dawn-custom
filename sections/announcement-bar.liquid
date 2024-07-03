@@ -43,7 +43,7 @@
             >
           {%- endif -%}
        
-          <p  style="background-color: {{ section.blocks.settings.bg_color }}  ; color: {{section.blocks.settings.text_color}}"  class="announcement-bar__message h5 {{section.blocks.settings.text_align}}" >
+          <p style="background-color: {{ blocks.settings.bg_color }}  ; color: {{blocks.settings.text_color}}"  class="announcement-bar__message h5" >
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
               {% render 'icon-arrow' %}
@@ -175,6 +175,7 @@
   },
   "settings": [
  
+   
     {
       "type": "checkbox",
       "id": "show_line_separator",
@@ -282,7 +283,7 @@
             }
           ],
           "default": ""
-        }
+        },
       ]
     }
   ],
